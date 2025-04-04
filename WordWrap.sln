@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWrap.Console", "WordWrap.Console\WordWrap.Console.csproj", "{EAAA2DC6-AC35-4DBF-A750-E5B3E3326BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWrap.Tests", "WordWrap.Tests\WordWrap.Tests.csproj", "{FCFF123C-E317-45F5-AD7A-D4832ED1EEA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAAA2DC6-AC35-4DBF-A750-E5B3E3326BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAA2DC6-AC35-4DBF-A750-E5B3E3326BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAA2DC6-AC35-4DBF-A750-E5B3E3326BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAA2DC6-AC35-4DBF-A750-E5B3E3326BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCFF123C-E317-45F5-AD7A-D4832ED1EEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFF123C-E317-45F5-AD7A-D4832ED1EEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFF123C-E317-45F5-AD7A-D4832ED1EEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFF123C-E317-45F5-AD7A-D4832ED1EEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

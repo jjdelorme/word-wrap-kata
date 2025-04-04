@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+temp/**
+client/[0-9]*
+
+# Never check in private key
+**/google-key.json
+/keys
+
+# dependencies
+**/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+**/appsettings.*.json
+**/backup
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+**/.envrc
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# built files
+**/obj
+**/bin
+**/wwwroot
+
+**/.vscode/
