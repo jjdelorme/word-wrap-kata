@@ -4,6 +4,9 @@ public class Wrapper
 {
     public static string Wrap(string text, int lineLength)
     {
-        return "";
+        if (text?.Length < lineLength)
+            return text;
+        else
+            return "";
     }
 }
